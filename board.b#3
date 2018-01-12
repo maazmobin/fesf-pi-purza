@@ -704,11 +704,11 @@ design rules under a new name.</description>
 <attribute name="SF_SKU" value="PRT-00783" x="28" y="27" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J1" library="SparkFun-Connectors" package="1X02" value="" x="21" y="11" rot="R180"/>
-<element name="C1" library="SparkFun-Capacitors" package="CPOL-RADIAL-2.5MM-5MM" value="10uF" x="10" y="13" rot="R180">
-<attribute name="PROD_ID" value="CAP-08440" x="10" y="13" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C1" library="SparkFun-Capacitors" package="CPOL-RADIAL-2.5MM-5MM" value="10uF" x="10" y="14" rot="R180">
+<attribute name="PROD_ID" value="CAP-08440" x="10" y="14" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R1" library="adafruit" package="0204/7" value="" x="9" y="18"/>
-<element name="R2" library="adafruit" package="0204/7" value="" x="9" y="22"/>
+<element name="R1" library="adafruit" package="0204/7" value="" x="11" y="19"/>
+<element name="R2" library="adafruit" package="0204/7" value="" x="11" y="22"/>
 <element name="Q3" library="adafruit" package="TC38H" value="" x="8" y="37" rot="R270">
 <attribute name="MF" value="" x="8" y="37" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="8" y="37" size="1.778" layer="27" rot="R270" display="off"/>
@@ -743,12 +743,12 @@ design rules under a new name.</description>
 <wire x1="14.46" y1="2.46" x2="13" y2="1" width="0.8128" layer="16"/>
 <wire x1="13" y1="1" x2="11" y2="1" width="0.8128" layer="16"/>
 <wire x1="6" y1="6" x2="6" y2="17.19" width="0.8128" layer="16"/>
-<wire x1="6" y1="17.19" x2="5.19" y2="18" width="0.8128" layer="16"/>
+<wire x1="6" y1="17.19" x2="7.19" y2="19" width="0.8128" layer="16"/>
 <wire x1="11" y1="1" x2="6" y2="6" width="0.8128" layer="16"/>
-<wire x1="5.19" y1="18" x2="5" y2="18" width="0.8128" layer="16"/>
-<wire x1="5" y1="18" x2="3" y2="20" width="0.8128" layer="16"/>
-<wire x1="3" y1="20" x2="3" y2="23.68" width="0.8128" layer="16"/>
-<wire x1="3" y1="23.68" x2="4.67" y2="25.35" width="0.8128" layer="16"/>
+<wire x1="7.19" y1="19" x2="6.5" y2="19" width="0.8128" layer="16"/>
+<wire x1="6.5" y1="19" x2="4.5" y2="21" width="0.8128" layer="16"/>
+<wire x1="4.5" y1="21" x2="4.5" y2="25.18" width="0.8128" layer="16"/>
+<wire x1="4.5" y1="25.18" x2="4.67" y2="25.35" width="0.8128" layer="16"/>
 </signal>
 <signal name="SCL">
 <contactref element="IC1" pad="6"/>
@@ -756,18 +756,16 @@ design rules under a new name.</description>
 <contactref element="R2" pad="1"/>
 <wire x1="17" y1="3.603" x2="17" y2="2" width="0.8128" layer="16"/>
 <wire x1="14.5" y1="-0.5" x2="9.5" y2="-0.5" width="0.8128" layer="16"/>
-<wire x1="1" y1="8" x2="1" y2="25.5" width="0.8128" layer="16"/>
-<wire x1="1" y1="25.5" x2="3.5" y2="28" width="0.8128" layer="16"/>
+<wire x1="2.5" y1="6.5" x2="2.5" y2="27" width="0.8128" layer="16"/>
+<wire x1="2.5" y1="27" x2="3.5" y2="28" width="0.8128" layer="16"/>
 <wire x1="6.5" y1="28" x2="7.5" y2="27" width="0.8128" layer="16"/>
 <wire x1="7.5" y1="27" x2="7.5" y2="25.64" width="0.8128" layer="16"/>
 <wire x1="7.21" y1="25.35" x2="7.5" y2="25.64" width="0.8128" layer="16"/>
 <wire x1="17" y1="2" x2="14.5" y2="-0.5" width="0.8128" layer="16"/>
-<wire x1="9.5" y1="-0.5" x2="1" y2="8" width="0.8128" layer="16"/>
+<wire x1="9.5" y1="-0.5" x2="2.5" y2="6.5" width="0.8128" layer="16"/>
 <wire x1="3.5" y1="28" x2="6.5" y2="28" width="0.8128" layer="16"/>
-<wire x1="5.19" y1="22" x2="5.19" y2="22.19" width="0.8128" layer="16"/>
-<wire x1="5.19" y1="22.19" x2="7" y2="24" width="0.8128" layer="16"/>
-<wire x1="7" y1="24" x2="7" y2="25.14" width="0.8128" layer="16"/>
-<wire x1="7" y1="25.14" x2="7.21" y2="25.35" width="0.8128" layer="16"/>
+<wire x1="7.19" y1="22" x2="7.19" y2="25.33" width="0.8128" layer="16"/>
+<wire x1="7.19" y1="25.33" x2="7.21" y2="25.35" width="0.8128" layer="16"/>
 </signal>
 <signal name="3V3">
 <contactref element="IR4" pad="2"/>
@@ -776,18 +774,17 @@ design rules under a new name.</description>
 <contactref element="R1" pad="2"/>
 <contactref element="R2" pad="2"/>
 <wire x1="11.397" y1="3.603" x2="11.92" y2="3.603" width="0.8128" layer="16"/>
-<wire x1="8.5" y1="12.75" x2="8.5" y2="6.5" width="0.8128" layer="16"/>
-<wire x1="8.5" y1="12.75" x2="8.75" y2="13" width="0.8128" layer="16"/>
-<wire x1="8.75" y1="13" x2="8.75" y2="16.75" width="0.8128" layer="16"/>
-<wire x1="8.75" y1="16.75" x2="10" y2="18" width="0.8128" layer="16"/>
-<wire x1="10" y1="18" x2="12.81" y2="18" width="0.8128" layer="16"/>
-<wire x1="13" y1="22" x2="12.81" y2="22" width="0.8128" layer="16"/>
-<wire x1="12.81" y1="22" x2="12.81" y2="18" width="0.8128" layer="16"/>
-<wire x1="12.81" y1="18" x2="22" y2="18" width="0.8128" layer="16"/>
-<wire x1="22" y1="18" x2="27" y2="13" width="0.8128" layer="16"/>
+<wire x1="14.81" y1="19" x2="14.81" y2="22" width="0.8128" layer="16"/>
+<wire x1="14.81" y1="19" x2="21" y2="19" width="0.8128" layer="16"/>
+<wire x1="21" y1="19" x2="27" y2="13" width="0.8128" layer="16"/>
 <wire x1="27" y1="13" x2="38.46" y2="13" width="0.8128" layer="16"/>
 <wire x1="38.46" y1="13" x2="38.5" y2="12.96" width="0.8128" layer="16"/>
-<wire x1="8.5" y1="6.5" x2="11.397" y2="3.603" width="0.8128" layer="16"/>
+<wire x1="11.397" y1="3.603" x2="8.5" y2="6.5" width="0.8128" layer="16"/>
+<wire x1="8.5" y1="13.75" x2="8.75" y2="14" width="0.8128" layer="16"/>
+<wire x1="8.5" y1="6.5" x2="8.5" y2="13.75" width="0.8128" layer="16"/>
+<wire x1="8.75" y1="14" x2="8.75" y2="15.75" width="0.8128" layer="16"/>
+<wire x1="8.75" y1="15.75" x2="12" y2="19" width="0.8128" layer="16"/>
+<wire x1="12" y1="19" x2="14.81" y2="19" width="0.8128" layer="16"/>
 </signal>
 <signal name="VBAT">
 <contactref element="IC1" pad="3"/>
