@@ -4894,8 +4894,8 @@ part number 2062-2P from STA</description>
 </segment>
 <segment>
 <pinref part="BATTERY2" gate="G$1" pin="V-"/>
-<wire x1="72.39" y1="17.78" x2="72.39" y2="7.62" width="0.1524" layer="91"/>
 <label x="72.39" y="7.62" size="1.778" layer="95"/>
+<wire x1="72.39" y1="17.78" x2="72.39" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IR4" gate="G$1" pin="1"/>

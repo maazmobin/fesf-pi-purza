@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -795,8 +795,8 @@ type 0204, grid 7.5 mm</description>
 <wire x1="2.286" y1="1.016" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="2.286" y1="-1.016" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
-<pad name="2" x="3.81" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="1" x="-3.81" y="0" drill="1.016" diameter="2.1844" shape="octagon"/>
+<pad name="2" x="3.81" y="0" drill="1.016" diameter="2.1844" shape="octagon"/>
 <text x="-2.54" y="1.2954" size="0.9906" layer="25" ratio="12">&gt;NAME</text>
 <text x="-1.6256" y="-0.4826" size="0.9906" layer="27" ratio="12">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
@@ -2224,8 +2224,8 @@ type 0309, grid 2.5 mm</description>
 <wire x1="0" y1="4.826" x2="0.762" y2="4.826" width="0.1524" layer="21"/>
 <wire x1="0" y1="5.969" x2="0" y2="6.477" width="0.1524" layer="21"/>
 <wire x1="0" y1="5.969" x2="0.762" y2="5.969" width="0.1524" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="0.8128" diameter="1.6764"/>
-<pad name="2" x="1.27" y="0" drill="0.8128" diameter="1.6764"/>
+<pad name="1" x="-1.27" y="0" drill="1.016" diameter="2.1844"/>
+<pad name="2" x="1.27" y="0" drill="1.016" diameter="2.1844"/>
 <text x="-1.905" y="2.032" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="3.175" y="2.032" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 <rectangle x1="0.3048" y1="1.016" x2="0.7112" y2="1.6002" layer="21"/>
@@ -3541,10 +3541,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="0" y1="-1.27" x2="7.62" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="7.62" y1="-1.27" x2="7.62" y2="-2.54" width="0.127" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" shape="square"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796"/>
-<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="2.1844" shape="square"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="2.1844"/>
+<pad name="3" x="5.08" y="0" drill="1.016" diameter="2.1844"/>
+<pad name="4" x="7.62" y="0" drill="1.016" diameter="2.1844"/>
 <text x="2.286" y="3.302" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="2.286" y="-3.429" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
@@ -4251,16 +4251,16 @@ Holes are offset 0.005" from center, to hold pins in place during soldering.
 <wire x1="-3" y1="-2.2" x2="-4.5" y2="-2.2" width="0.2032" layer="21"/>
 <wire x1="-3.4" y1="9" x2="-3.4" y2="2.2" width="0.2032" layer="51"/>
 <wire x1="-3.4" y1="-9" x2="-3.4" y2="-2.2" width="0.2032" layer="51"/>
-<pad name="1" x="-1.397" y="5.08" drill="1.016" diameter="1.8796" rot="R270"/>
-<pad name="2" x="1.397" y="5.08" drill="1.016" diameter="1.8796" rot="R270"/>
-<pad name="3" x="-1.397" y="2.54" drill="1.016" diameter="1.8796" rot="R270"/>
-<pad name="4" x="1.397" y="2.54" drill="1.016" diameter="1.8796" rot="R270"/>
-<pad name="5" x="-1.397" y="0" drill="1.016" diameter="1.8796" rot="R270"/>
-<pad name="6" x="1.397" y="0" drill="1.016" diameter="1.8796" rot="R270"/>
-<pad name="7" x="-1.397" y="-2.54" drill="1.016" diameter="1.8796" rot="R270"/>
-<pad name="8" x="1.397" y="-2.54" drill="1.016" diameter="1.8796" rot="R270"/>
-<pad name="9" x="-1.397" y="-5.08" drill="1.016" diameter="1.8796" rot="R270"/>
-<pad name="10" x="1.397" y="-5.08" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="1" x="-1.397" y="5.08" drill="1.016" diameter="2.1844" rot="R270"/>
+<pad name="2" x="1.397" y="5.08" drill="1.016" diameter="2.1844" rot="R270"/>
+<pad name="3" x="-1.397" y="2.54" drill="1.016" diameter="2.1844" rot="R270"/>
+<pad name="4" x="1.397" y="2.54" drill="1.016" diameter="2.1844" rot="R270"/>
+<pad name="5" x="-1.397" y="0" drill="1.016" diameter="2.1844" rot="R270"/>
+<pad name="6" x="1.397" y="0" drill="1.016" diameter="2.1844" rot="R270"/>
+<pad name="7" x="-1.397" y="-2.54" drill="1.016" diameter="2.1844" rot="R270"/>
+<pad name="8" x="1.397" y="-2.54" drill="1.016" diameter="2.1844" rot="R270"/>
+<pad name="9" x="-1.397" y="-5.08" drill="1.016" diameter="2.1844" rot="R270"/>
+<pad name="10" x="1.397" y="-5.08" drill="1.016" diameter="2.1844" rot="R270"/>
 <rectangle x1="-1.524" y1="4.826" x2="-1.016" y2="5.334" layer="51" rot="R270"/>
 <rectangle x1="1.016" y1="4.826" x2="1.524" y2="5.334" layer="51" rot="R270"/>
 <rectangle x1="1.016" y1="2.286" x2="1.524" y2="2.794" layer="51" rot="R270"/>
@@ -4498,8 +4498,8 @@ Holes are 0.05".
 <wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="2.1844" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="2.1844" rot="R90"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
@@ -4524,8 +4524,8 @@ Holes are 0.05".
 <wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="0" y1="-1.27" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" shape="square"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="2.1844" shape="square"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="2.1844"/>
 <text x="-1.27" y="3.302" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.794" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
@@ -5982,8 +5982,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="13.32" y1="3.8" x2="13.32" y2="-3.8" width="0.2032" layer="21"/>
 <wire x1="13.32" y1="-3.8" x2="10.34" y2="-3.8" width="0.2032" layer="21"/>
 <circle x="0.06" y="0.1" radius="10" width="0.127" layer="51"/>
-<pad name="2" x="-8.15" y="0" drill="1.3" rot="R90"/>
-<pad name="1" x="11.85" y="0" drill="1.3" rot="R90"/>
+<pad name="2" x="-8.15" y="0" drill="1.016" diameter="2.1844" rot="R90"/>
+<pad name="1" x="11.85" y="0" drill="1.016" diameter="2.1844" rot="R90"/>
 <text x="8.6" y="-0.7" size="1.27" layer="51">+</text>
 <text x="-6.4" y="-0.7" size="1.27" layer="51">-</text>
 <wire x1="-10.54" y1="3.8" x2="-10.54" y2="-3.8" width="0.2032" layer="21"/>
@@ -6722,8 +6722,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 <package name="CPOL-RADIAL-2.5MM-5MM">
 <description>2.5 mm spaced PTHs with 5 mm diameter outline and standard solder mask</description>
-<pad name="1" x="1.25" y="0" drill="0.7" diameter="1.651" shape="square"/>
-<pad name="2" x="-1.25" y="0" drill="0.7" diameter="1.651"/>
+<pad name="1" x="1.25" y="0" drill="1.016" diameter="2.1844" shape="square"/>
+<pad name="2" x="-1.25" y="0" drill="1.016" diameter="2.1844"/>
 <circle x="0" y="0" radius="2.5" width="0.2032" layer="21"/>
 <text x="0" y="2.667" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="0" y="-2.667" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
